@@ -1,8 +1,8 @@
-/*
+*
   DIAGNOSTIC STYLING
 */
 body {
-  background: gray;
+  background: black;
 }
 
 * {
@@ -43,7 +43,16 @@ aside {
 HEADER
 ************/
 /* Your Styles */
-
+h1{
+  font-family: Stencil;
+  color: orangered;
+  font-size: 4em;
+}
+h5{
+  font-family: fantasy;
+  color:white;
+  font-size: 2em
+}
 
 /************
 MOVIE TRAILER w/ MEDIA ELEMENT PLAYER
@@ -70,12 +79,35 @@ main section {
   flex-wrap: wrap;
   justify-content: center;
 }
+img{
+  max-width: 75%;
+}
+figcaption {
+  color: lightgray;
+  font-family: Tw Cen MT Condensed;
+  text-align: left;
 
+}
+/********
+ASIDE
+********/
+p{
+  color: lightgray;
+  font-family: Tw Cen MT Condensed;
+  font-size: 1em;
+}
+li{
+  font-family: Tw Cen MT Condensed;;
+  font-size; 1em;
+  }
 /************
 FOOTER
 ************/
 footer {
   text-align: center;
+  color: lightgray;
+  font-family: Tw Cen MT Condensed;
+  font-size: 1em;
 }
 
 /************
